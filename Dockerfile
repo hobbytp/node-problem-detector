@@ -14,7 +14,7 @@
 
 #FROM @BASEIMAGE@
 FROM scratch
-MAINTAINER Hobby Tan <hobbytp@google.com>
+MAINTAINER HobbyTan <hobbytp@google.com>
 
 RUN clean-install bash
 
