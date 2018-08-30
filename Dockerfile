@@ -12,8 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM @BASEIMAGE@
-MAINTAINER Random Liu <lantaol@google.com>
+#FROM @BASEIMAGE@
+FROM scratch
+MAINTAINER Hobby Tan <hobbytp@google.com>
 
 RUN clean-install bash
 
